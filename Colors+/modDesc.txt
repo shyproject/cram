@@ -1,0 +1,17 @@
+Colors+ adds 9 new skin tones + 32 new hair colors
+
+- Hair colors can be accessed via the 'Salon' -> 'Style Makeover'
+- Skin tones can be accessed when starting a 'New Game'
+
++ If you encounter any bugs/issues while using this mod, please leave a comment and I will take a look into it! +
+
+
+Colors+ (Update Log):
+** 7/6/24 **
+
+- Condensed data folder, should fix rare bug where some characters turned into shadows
+- Added 5 new neon hair colors
+- Updated to support game version 0.46.14
+
+(Version 0.46.14)
+(Mod Version 0.00.01)

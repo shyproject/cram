@@ -1,0 +1,68 @@
+<?xml version= "1.0"?>
+<xml noTranslate="1">
+	<!--Group according to Fitzpatrick scale-->
+<tag>
+		<id>835300457</id>
+		<desc category="Skin Group" name="skinColorsPlus"/>
+		<stats active="1"/>
+		<group>
+			<skin id="835300459"/>
+			<skin id="835300460"/>
+			<skin id="835300461"/>
+			<skin id="835300462"/>
+			<skin id="835300463"/>
+			<skin id="835300464"/>
+			<skin id="835300465"/>
+			<skin id="835300466"/>
+			<skin id="835300467"/>
+		</group>
+	</tag>
+	
+	<!--<tag>
+		
+	<tag>
+		<id>392835948</id>
+		<desc category="Hair Group" name="hairColorsPlus"/>
+		<stats active="1"/>
+		<group>
+			<hair id="1616009725"/>
+			<hair id="1616009726"/>
+			<hair id="1616009727"/>
+			<hair id="1616009728"/>
+			<hair id="1616009729"/>
+			<hair id="1616009730"/>
+			<hair id="1616009731"/>
+			<hair id="1616009732"/>
+			<hair id="1616009733"/>
+			<hair id="1616009734"/>
+			<hair id="1616009735"/>
+			<hair id="1616009736"/>
+			<hair id="1616009737"/>
+			<hair id="1616009738"/>
+			<hair id="1616009739"/>
+			<hair id="1616009740"/>
+			<hair id="1616009741"/>
+			<hair id="1616009742"/>
+			<hair id="1616009743"/>
+			<hair id="1616009744"/>
+			<hair id="1616009745"/>
+			<hair id="1616009746"/>
+			<hair id="1616009747"/>
+			<hair id="1616009748"/>
+			<hair id="1616009749"/>
+			<hair id="1616009750"/>
+			<hair id="1616009751"/>
+			<hair id="1616009752"/>
+			<hair id="1616009753"/>
+			<hair id="1616009754"/>
+			<hair id="1616009755"/>
+			<hair id="1616009756"/>
+			<hair id="1616009757"/>
+			<hair id="1616009758"/>
+			<hair id="1616009759"/>
+			<hair id="1616009760"/>
+			<hair id="1616009761"/>
+			
+		</group>
+	</tag>-->
+</xml>
