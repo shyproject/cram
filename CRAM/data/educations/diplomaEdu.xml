@@ -1,0 +1,29 @@
+<?xml version= "1.0"?>
+<xml>
+	<education>
+		<id>47511</id>
+		<desc category="Education" name="DIPLOMA:Logistics"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="47511"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="6" hours="80" money="-1015000">
+		</study>
+		<requires>
+			<xpReqGroup id="83511"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="1"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+</xml>

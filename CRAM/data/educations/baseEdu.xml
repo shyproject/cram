@@ -1,0 +1,42 @@
+<?xml version= "1.0"?>
+<xml>
+	<education>
+		<id>00000</id>
+		<desc category="Education" name="Template"/>
+		<!--newGame = 1=appears in new game selection but unchecked by default, 2 = should be checked if valid (like schooling)
+		minAgeYears / maxAgeYears = character years old to be considered valid
+		-->
+		<stats active="0" newGame="2" minAgeYears="5" maxAgeYears="7">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/> 
+		<!--actionEnrol = what courses can we enrol for here
+		actionStudy = should be self-referencing
+		actionStudyQuit = how to quit course-->
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="00000"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<!--money = course cost in cents
+		months = months until course completed
+		hours = minimum hours per month to have steady performance for course. if not specified, defaults to 120 hours
+		status = status effects gained from completing study-->
+		<study months="12" hours="120" money="-40000">
+			<status id="16091"/>
+		</study>
+		<!--requires = requirements to do the course, works in same way as jobs requirements, see baseJobs.xml-->
+		<requires>
+			<xpReqGroup id="83521"/>
+			<xpReq id="45031" amt="1000" prob="5.0"/>
+		</requires>
+		<!--action = effects when studying this course, works in same way as activity system, see baseActivity.xml-->
+		<action hours="40">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+</xml>	

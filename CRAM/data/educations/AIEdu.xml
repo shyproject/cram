@@ -1,0 +1,63 @@
+<?xml version= "1.0"?>
+<xml>
+	<education>
+		<id>634487927</id>
+		<desc category="Education" name="Artificial Intelligence Major"/>
+		<stats active="1">
+		<work replace="1">
+			<tip></tip>
+		</work>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="634487927"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="12" money="-7500000">
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+		</requires>
+		<action hours="22.5">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<pref id="10060" amt="2"/>
+			<pref id="10080" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	<education>
+		<id>6164804</id>
+		<desc category="Education" name="Artificial Intelligence Minor"/>
+		<stats active="1">
+		<work replace="1">
+			<tip></tip>
+		</work>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="6164804"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="7" money="-5000000">
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<pref id="10060" amt="2"/>
+			<pref id="10080" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+</xml>	

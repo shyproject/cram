@@ -1,0 +1,54 @@
+<?xml version= "1.0"?>
+<xml>
+	<education>
+		<id>46511</id>
+		<desc category="Education" name="DOCTOR:Medicine"/>
+		<stats active="1">
+			<tip>Requires any completed bachelor's degree to enrol.</tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="46511"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="24" hours="80" money="-1815000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83611"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="3"/>
+			<potentialGroup id="84211"/>
+		</action>
+	</education>
+	
+	<education>
+		<id>46521</id>
+		<desc category="Education" name="Surgery Training Program"/>
+		<stats active="1">
+			<tip>Repeat this program until you gain enough surgery experience to become a surgeon.</tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="46521"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="6" hours="80" money="-740000">
+		</study>
+		<requires>
+			<xpReq id="46511" amt="50" prob="0.1"/>
+			<xpReq id="10550" amt="4000" prob="0.95"/>
+			<xpReq id="10555" amt="2000" prob="0.5"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="3"/>
+			<xpGain id="10555" amt="1"/>
+			<potentialGroup id="84211"/>
+		</action>
+	</education>
+</xml>

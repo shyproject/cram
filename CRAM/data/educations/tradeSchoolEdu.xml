@@ -1,0 +1,257 @@
+<?xml version= "1.0"?>
+<xml>
+	<education>
+		<id>45511</id>
+		<desc category="Education" name="CERT:Culinary"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45511"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="4" money="-1120000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83506"/>
+		</requires>
+		<action hours="19">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<id>45521</id>
+		<desc category="Education" name="CERT:Horticulture"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45521"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="4" money="-520000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83506"/>
+		</requires>
+		<action hours="19">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<id>45531</id>
+		<desc category="Education" name="CERT:Hairdressing"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45531"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="4" money="-580000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83506"/>
+		</requires>
+		<action hours="19">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<id>45541</id>
+		<desc category="Education" name="CERT:Real Estate"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45541"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="4" money="-504000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<info>Must have HS Diploma, can't have less than that</info>
+			<xpReqGroup id="83509"/>
+		</requires>
+		<action hours="19">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<id>45551</id>
+		<desc category="Education" name="CERT:Driving Operations"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45551"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="4" money="-390000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83506"/>
+		</requires>
+		<action hours="19">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<info>Driving XP requrements are much lower than other forms of XP, so reducing XP gain rate is fine here</info>
+			<xpGain id="10585" amt="1" prob="0.25"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+
+	<education>
+		<id>45561</id>
+		<desc category="Education" name="CERT:Fitness"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45561"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="4" money="-370000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83506"/>
+		</requires>
+		<action hours="19">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<id>45571</id>
+		<desc category="Education" name="CERT:Fabrication"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45571"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="4" money="-420000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83506"/>
+		</requires>
+		<action hours="19">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<id>45581</id>
+		<desc category="Education" name="CERT:Applied Finance"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45581"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="4" money="-500000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83506"/>
+		</requires>
+		<action hours="19">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<id>45591</id>
+		<desc category="Education" name="CERT:Aged Care"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45591"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="4" money="-490000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83506"/>
+		</requires>
+		<action hours="19">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+</xml>

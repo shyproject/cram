@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<xml>
+
+	<education>
+		<id>166300387</id>
+		<desc category="Education" name="E-Sports Bootcamp"/>
+		<stats active="1" minAgeYears="12">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="166300387"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		
+		<study months="2" money="-150000"> <!-- $3,000 -->
+			<status id="16091"/> <!-- Accomplished -->
+		</study>
+		
+		<requires>
+			<xpReqGroup id="83506"/> <!--HS Diploma or Grade 9,10 or Work XP -->
+			<xpReq id="127006845" amt="80" prob="1.0"/> <!-- XP: Gaming -->
+		</requires>
+		
+		<action hours="20">
+			<need id="1111" amt="-3"/> <!-- Lose Fun -->
+			
+			<pref id="10060" amt="2"/> <!-- Technology -->
+			<pref id="10010" amt="2"/> <!--Thinking -->
+			<pref id="10065" amt="3"/> <!-- Social -->
+			
+			<xpGain id="127006845" amt="2" prob="1"/> <!--XP: Gaming +2 (tagExperience_ESports.xml) -->
+			
+			<potential id="12581" amt="1" prob="0.03"/> <!--Repetitive Strain Injury -->
+		</action>
+		
+		<tags>
+			<industry id="10200" prob="1.0"/> <!--Entertainment -->
+		</tags>
+		
+	</education>
+	
+</xml>

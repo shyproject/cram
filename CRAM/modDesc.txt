@@ -1,0 +1,20 @@
+CRAM halves the education timeframe requirement + tuition for all levels!
+
+Compatible with the following mods w/ education additions:
+1. AI careers by Rise
+2. Performing Arts Career by InfiniteGames004
+3. Space Careers by InfiniteGames004
+4. Politics Career by AidenCharming
+5. E-Sports Career by Kris℠
+
++ If you encounter any bugs/issues while using this mod, please leave a comment and I will take a look into it! +
+
+
+CRAM (Update Log):
+** 7/7/24 **
+- Now compatible with the Politics Career mod by AidenCharming
+- Now compatible with E-Sports Career mod by Kris℠
+
+
+(Game Version 0.46.14)
+(Mod Version 1.0.5)

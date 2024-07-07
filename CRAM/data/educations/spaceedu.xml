@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<xml>
+
+	<education>
+		<id>1850848594</id>
+		<desc category="Education" name="Flight Dynamics Major"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="1850848594"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="6" money="-5000000">
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+			<xpReq id="10730" amt="70" prob="1.0"/>
+		</requires>
+		<action hours="22">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<pref id="10060" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	<education>
+		<id>1150042224</id>
+		<desc category="Education" name="Aeronautical Training"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="1150042224"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="6" money="-8500000">
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+			<xpReq id="10730" amt="70" prob="1.0"/>
+			<xpReq id="10625" amt="50" prob="1.0"/>
+		</requires>
+		<action hours="22">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<pref id="10060" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+</xml>

@@ -1,0 +1,192 @@
+<?xml version= "1.0"?>
+<xml>
+	<education>
+		<id>45011</id>
+		<desc category="Education" name="School Grade 1,2"/>
+		<stats active="1" newGame="1" newGameCheckMinAge="7" newGameCheckMaxAge="8">
+			<tip>1st and 2nd school grades. Suitable for children 5-7.</tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45011"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="11" hours="79">
+			<status id="16091" amt="1"/>
+		</study>
+		<requires>
+		</requires>
+		<action hours="19" minAgeAction="5" maxAgeAction="7">
+			<need id="1111" amt="-12"/>
+			<pref id="10065" amt="1"/>
+			<pref id="10075" amt="2"/>
+			<pref id="10080" amt="1"/>
+			<xpGain id="10510" amt="1"/>
+		</action>
+	</education>
+	
+	<education>
+		<id>45016</id>
+		<desc category="Education" name="School Grade 3,4"/>
+		<stats active="1" newGame="1" newGameCheckMinAge="9" newGameCheckMaxAge="10">
+			<tip>3rd and 4th school grades. Suitable for children 7-9.</tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45016"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="11" hours="79">
+			<status id="16091" amt="1"/>
+		</study>
+		<requires>
+			<xpReq id="45011" amt="250" prob="1.0"/>
+		</requires>
+		<action hours="19" minAgeAction="7" maxAgeAction="9">
+			<need id="1111" amt="-12"/>
+			<pref id="10065" amt="2"/>
+			<pref id="10075" amt="2"/>
+			<pref id="10080" amt="1"/>
+			<xpGain id="10510" amt="1"/>
+		</action>
+	</education>
+	
+	<education>
+		<id>45021</id>
+		<desc category="Education" name="School Grade 5,6"/>
+		<stats active="1" newGame="1" newGameCheckMinAge="11" newGameCheckMaxAge="12">
+			<tip>5th and 6th school grades. Suitable for children 9-11.</tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45021"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="11" hours="79">
+			<status id="16091" amt="1"/>
+		</study>
+		<requires>
+			<xpReq id="45016" amt="250" prob="1.0"/>
+		</requires>
+		<action hours="19" minAgeAction="9" maxAgeAction="11">
+			<info>Creativity goes away and is replaced by thinking</info>
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="1"/>
+			<pref id="10065" amt="2"/>
+			<pref id="10075" amt="2"/>
+			<xpGain id="10510" amt="1"/>
+		</action>
+	</education>
+	
+	<education>
+		<id>45026</id>
+		<desc category="Education" name="School Grade 7,8"/>
+		<stats active="1" newGame="1" newGameCheckMinAge="13" newGameCheckMaxAge="14">
+			<tip>7th and 8th school grades. Suitable for children 11-13.</tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45026"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="11" hours="79">
+			<status id="16091" amt="1"/>
+		</study>
+		<requires>
+			<xpReq id="45021" amt="250" prob="1.0"/>
+		</requires>
+		<action hours="19" minAgeAction="11" maxAgeAction="13">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="1"/>
+			<pref id="10060" amt="1"/>
+			<pref id="10065" amt="2"/>
+			<pref id="10075" amt="2"/>
+			<xpGain id="10510" amt="1"/>
+		</action>
+	</education>
+	
+	<education>
+		<id>45031</id>
+		<desc category="Education" name="School Grade 9,10"/>
+		<stats active="1" newGame="1" newGameCheckMinAge="15" newGameCheckMaxAge="16">
+			<tip>9th and 10th school grades. Suitable for children 13-15.</tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45031"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="11" hours="79">
+			<status id="16091" amt="1"/>
+		</study>
+		<requires>
+			<xpReq id="45026" amt="250" prob="1.0"/>
+		</requires>
+		<action hours="19" minAgeAction="13" maxAgeAction="15">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="1"/>
+			<pref id="10060" amt="1"/>
+			<pref id="10065" amt="2"/>
+			<pref id="10075" amt="1"/>
+			<xpGain id="10510" amt="1"/>
+		</action>
+	</education>
+	
+	<education>
+		<info>Used internally for Steam achievements.</info>
+		<id>45036</id>
+		<desc category="Education" name="HS Diploma"/>
+		<stats active="1" newGame="1" newGameCheckMinAge="17">
+			<tip>11th and 12th school grades. Suitable for people 15+.</tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45036"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="11" hours="79">
+			<status id="16091" amt="1"/>
+		</study>
+		<requires>
+			<info>Grade school xp is based on fully completing all previous education. 18k school learning xp is ok since remedial education accumulates xp at much faster rate</info>
+			<xpReq id="10510" amt="18000" prob="1.0"/>
+			<xpReq id="45031" amt="250" prob="1.0"/>
+		</requires>
+		<action hours="19" minAgeAction="15">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<pref id="10060" amt="2"/>
+			<pref id="10065" amt="2"/>
+			<xpGain id="10510" amt="1"/>
+		</action>
+	</education>
+	
+	<education>
+		<info>newGame set to zero because player can't choose to have this at game start</info>
+		<id>45051</id>
+		<desc category="Education" name="Remedial Education"/>
+		<stats active="1" newGame="0">
+			<tip>Suitable for adults who never completed early schooling. Useful for reaching requirements to enrol in HS Diploma.</tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45051"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="12" hours="80" money="-50000">
+		</study>
+		<action hours="20" minAgeAction="18">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<pref id="10060" amt="2"/>
+			<xpGain id="10510" amt="6"/>
+		</action>
+	</education>
+</xml>

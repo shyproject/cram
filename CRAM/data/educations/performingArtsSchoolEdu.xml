@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<xml>
+
+	<education>
+		<id>376397797</id>
+		<desc category="Education" name="Dancing Major"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="376397797"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="6" money="-5000000">
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+			<xpReq id="21398832" amt="60" prob="1.0"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-3"/>
+			<pref id="10080" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	<education>
+		<id>83647859</id>
+		<desc category="Education" name="Directing Major"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="83647859"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="6" money="-6000000">
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+			<xpReq id="1080838986" amt="15" prob="1.0"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-2"/>
+			<pref id="10080" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	<education>
+		<id>1399093038</id>
+		<desc category="Education" name="Acting Major"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="1399093038"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="6" money="-4000000">
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+			<xpReq id="1085605756" amt="15" prob="1.0"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-2"/>
+			<pref id="10080" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	<education>
+		<id>1079712380</id>
+		<desc category="Education" name="Music Major"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="1079712380"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="6" money="-2000000">
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+			<xpReq id="719307372" amt="15" prob="1.0"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-2"/>
+			<pref id="10080" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+</xml>

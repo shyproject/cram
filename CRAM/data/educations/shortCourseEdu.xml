@@ -1,0 +1,51 @@
+<?xml version= "1.0"?>
+<xml>
+	<education>
+		<id>47011</id>
+		<desc category="Education" name="Sales Legends!"/>
+		<stats active="1">
+			<tip>Learn the 5 secrets to 5x your sales in 25 days!</tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="47011"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<info>Lower max hours so player can't gain too much XP from one course</info>
+		<study months="2" hours="20" money="-660000">
+		</study>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<xpGain id="10565" amt="5" prob="1.0"/>
+			<xpGain id="10515" amt="5" prob="1.0"/>
+			<pref id="10065" amt="2"/>
+			<pref id="10080" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+	</education>
+	
+	<education>
+		<info>Balanced around giving 1000-2000XP in one course</info>
+		<id>47021</id>
+		<desc category="Education" name="Influencing People 101"/>
+		<stats active="1">
+			<tip>Learn how to make others do your bidding in 12 easy steps.</tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="47021"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="2" hours="20" money="-900000">
+		</study>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<xpGain id="10535" amt="2" prob="1.0"/>
+			<pref id="10065" amt="2"/>
+			<pref id="10075" amt="1"/>
+			<potentialGroup id="84211"/>
+		</action>
+	</education>
+</xml>	

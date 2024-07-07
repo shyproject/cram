@@ -1,0 +1,353 @@
+<?xml version= "1.0"?>
+<xml>
+	<education>
+		<id>1553120582</id>
+		<desc category="Education" name="DEGREE:Professional Writing"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="1553120582"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="18" hours="6" money="-750000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+		</requires>
+		<action hours="20">
+			<need id="10010" amt="-12"/>
+			<pref id="10060" amt="3"/>
+            <pref id="10080" amt="3"/>
+			<xpGain id="1553120583" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<id>45111</id>
+		<desc category="Education" name="DEGREE:Teaching"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45111"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="18" money="-1350000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<id>45121</id>
+		<desc category="Education" name="MASTER:Education"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45121"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="12" money="-2350000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<info>Need education degree OR teaching xp</info>
+			<xpReq id="10545" amt="6000" prob="1.0"/>
+			<xpReq id="45111" amt="500" prob="1.0"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<id>45131</id>
+		<desc category="Education" name="DEGREE:Computer Science"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45131"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="18" money="-5650000">
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<pref id="10060" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<id>45141</id>
+		<desc category="Education" name="DEGREE:Graphic Design"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45141"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="18" money="-5365000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<pref id="10080" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<id>45161</id>
+		<desc category="Education" name="DEGREE:Law"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45161"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="18" money="-7150000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<pref id="10050" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<id>45201</id>
+		<desc category="Education" name="DEGREE:Nursing"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45201"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="18" money="-3255000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+
+	<education>
+		<id>45211</id>
+		<desc category="Education" name="DEGREE:Engineering"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45211"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="18" money="-5750000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+
+	<education>
+		<id>45221</id>
+		<desc category="Education" name="DEGREE:Business and Finance"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45221"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="18" money="-6250000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<xpReqGroup id="83509"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+
+	<education>
+		<info>Balanced around taking 18 months</info>
+		<id>46011</id>
+		<desc category="Education" name="MASTER:Business Admin."/>
+		<stats active="1">
+			<tip>Otherwise known as an MBA</tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="46011"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="9" money="-3025000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<info>Need BOTH 3 years work xp and at least one degree</info>
+			<xpReq id="10505" amt="6000" prob="0.5"/>
+			<xpReqGroup id="83611" prob="0.5"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<pref id="10050" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	
+	<education>
+		<info>Balanced around taking 36 months</info>
+		<id>46031</id>
+		<desc category="Education" name="Doctor of Philosophy"/>
+		<stats active="1">
+			<tip>Otherwise known as an PhD</tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="46031"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="18" money="-3625000">
+			<status id="16091" amt="2"/>
+		</study>
+		<requires>
+			<info>Need at least one degree</info>
+			<xpReqGroup id="83611" prob="1.0"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<xpGain id="10760"/>
+			<pref id="10010" amt="3"/>
+			<pref id="10090" amt="1"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+	<education>
+		<id>45222</id>
+		<desc category="Education" name="DEGREE:Politics"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="UIIconEducationLearn"/>
+		<special>
+			<actionEnrol id="71511"/>
+			<actionStudy id="45222"/>
+			<actionStudyQuit id="71516"/>
+		</special>
+		<study months="12" money="-12150000">
+			<status id="16091" amt="4"/>
+		</study>
+		<requires>
+			<xpReq id="10700" amt="6000" prob="1.0"/>
+			<xpReq id="45161" amt="500" prob="1.0"/>
+		</requires>
+		<action hours="20">
+			<need id="1111" amt="-12"/>
+			<pref id="10010" amt="2"/>
+			<pref id="10050" amt="2"/>
+			<potentialGroup id="84211"/>
+		</action>
+		<tags>
+			<industry id="10190" prob="1.0"/>
+		</tags>
+	</education>
+</xml>
