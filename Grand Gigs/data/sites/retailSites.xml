@@ -1,0 +1,20 @@
+<?xml version= "1.0"?>
+<xml>		
+	<site>
+		<id>51231</id> 
+		<desc category="Site" name="Cafe"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="SiteCafe" backdrop="SiteBackdropCafe"/>
+		<spawnStats densityMin="0" densityMax="3">
+		</spawnStats>
+		<special>
+			<actionSearchSite id="70521"/>
+		</special>
+		<activities>
+			<activity id="549906720"/>
+		</activities>
+	</site>
+	
+</xml>

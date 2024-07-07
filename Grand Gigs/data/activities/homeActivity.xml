@@ -1,0 +1,45 @@
+<?xml version= "1.0"?>
+<xml>
+	<activity>
+		<id>549906718</id>
+		<desc category="Activity" name="Post Video To GrandTube"/>
+		<stats active="1">
+			<tip>Oh no, why did I post that?!</tip>
+		</stats>
+		<image icon="GrandTube"/>
+		<action hours="20" money="4400000" finType="2046" minAgeAction="13" interval="2">
+			<wareTagReq id="87531"/>		
+			<pref id="10005" amt="4"/>
+			<xpGain id="10505" amt="1" prob="0.8"/>
+			<xpGain id="10515" amt="1" prob="0.4"/>
+			<potential id="12031" amt="1" prob="0.07"/>
+			<potential id="12521" amt="1" prob="0.07"/>
+			<potential id="16071" amt="1" prob="0.09"/>
+			<potential id="16081" amt="1" prob="0.09"/>
+			<potential id="16151" amt="1" prob="0.09"/>
+		</action>
+	</activity>
+
+	<activity>
+		<id>549906719</id>
+		<desc category="Activity" name="Stream on Gritch"/>
+		<stats active="1">
+			<tip>Hope you have some energy drinks handy..</tip>
+		</stats>
+		<image icon="Gritch"/>
+		<action hours="20" money="3000000" finType="2046" minAgeAction="13" interval="2">
+			<wareTagReq id="87531"/>		
+			<pref id="10005" amt="4"/>
+			<xpGain id="10505" amt="1" prob="0.8"/>
+			<xpGain id="10560" amt="1" prob="0.4"/>
+			<potential id="12031" amt="1" prob="0.05"/>
+			<potential id="12556" amt="1" prob="0.05"/>
+			<potential id="12531" amt="1" prob="0.06"/>
+			<potential id="16051" amt="1" prob="0.06"/>
+			<potential id="16101" amt="1" prob="0.06"/>
+		</action>
+	</activity>
+	
+</xml>
+
+

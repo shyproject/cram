@@ -1,0 +1,22 @@
+<?xml version= "1.0"?>
+<xml>	
+	<activity>
+		<id>549906720</id>
+		<desc category="Activity" name="Publish New Blog Post "/>
+		<stats active="1">
+			<tip>Post a new blog post to generate some sweet ad revenue!</tip>
+		</stats>
+		<image icon="BlogPost"/>
+			<action hours="20" money="1000000" finType="2046" minAgeAction="13" interval="1">		
+			<pref id="10005" amt="4"/>
+			<xpGain id="10505" amt="1" prob="0.8"/>
+			<xpGain id="10530" amt="1" prob="0.4"/>
+			<potential id="12546" amt="1" prob="0.07"/>
+			<potential id="16081" amt="1" prob="0.07"/>
+			<potential id="16091" amt="1" prob="0.09"/>
+			<potential id="16101" amt="1" prob="0.09"/>
+			<potential id="16151" amt="1" prob="0.09"/>
+		</action>
+	</activity>
+	
+</xml>

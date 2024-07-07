@@ -1,0 +1,21 @@
+<?xml version= "1.0"?>
+<xml>
+	
+	<site>
+		<id>50581</id>
+		<desc category="Site" name="Library"/>
+		<stats active="1">
+			<tip></tip>
+		</stats>
+		<image icon="SiteLibrary" backdrop="SiteBackdropLibrary"/>
+		<spawnStats densityMin="0" densityMax="2">
+		</spawnStats>
+		<special>
+			<actionSearchSite id="70521"/>
+		</special>
+		<activities>
+			<activity id="549906720"/>
+		</activities>
+	</site>
+	
+</xml>	

@@ -1,0 +1,16 @@
+Grand Gigs introduces 'Grand Tube' & 'Gritch', both at-home activities that can be used to earn extra money every two months! This mod also adds the option to publish a blog post from the Library or Cafe every month!
+
+Grand Tube & Gritch:
+- Minimum Age: 13
+- Required Items: Computer
+- Location: Home
+- Post every two months
+
+Blog Posts:
+- Minimum Age: 13
+- Location: Libraries & Cafes
+- Post every month
+
+
+(Game Version: 0.46.14)
+(Mod Version: 1.0.0) 
